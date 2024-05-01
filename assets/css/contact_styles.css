@@ -13,36 +13,14 @@ h1 {
     text-align: center;
 }
 
+/* h2 */
 h2 {
-    font-size: 1REM;
+    font-size: 1.3REM;
     border: 0px solid #8491A8;
     padding: 10px 20px solid black;
     margin: 0% 20%;
     text-align: center;
 }
-
-/*--------------------------------------------------------------------------*/
-/*Experimental*/
-/*--------------------------------------------------------------------------*/
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 20%;
-}
-
-.section {
-    flex: 1; /* Each section takes up equal space */
-    border: 0px solid black; /* Border for visualization */
-    margin-right: 2vw; /* Adjust the value as needed */
-    text-align: justify;
-}
-
-/* Ensure the last section doesn't have margin on the right */
-.section:last-child {
-    margin-right: 0;
-}
-
-/*--------------------------------------------------------------------------*/
 
 footer {
     border: 0px solid black;
