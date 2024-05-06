@@ -1,12 +1,12 @@
 /* General Formatting */
 * {
-    background-color: #FFEDDF;
+    background-color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* h1 */
 h1 {
-    color: #FFEDDF;
+    color: white;
     background-color: #0D1321;
     border: 10px solid #0D1321;
     padding: 10px 20px ;
@@ -15,9 +15,8 @@ h1 {
 }
 
 #linkedin_qr {
-    color: #0D1321;
-    background-color: #8491A8;
-    border: 10px solid #8491A8;
+    background-color: white;
+    border: 1px solid black;
     padding: 10px 20px ;
     margin: 20px 50px ;
 }
@@ -25,8 +24,8 @@ h1 {
 /* Main boxes i.e. level_1 */
 .level_1_box {
     color: #0D1321;
-    background-color: #8491A8;
-    border: 10px solid #8491A8;
+    background-color: white;
+    border: 1px solid black;
     padding: 10px 20px ;
     margin: 20px 50px ;
 }
