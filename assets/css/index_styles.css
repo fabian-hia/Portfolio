@@ -30,9 +30,20 @@ h2 {
     margin: 0% 20%;
 }
 
-.section {
+.section1, .section3,.section5 {
+    margin: auto;
     flex: 1; /* Each section takes up equal space */
-    border: 0px solid black; /* Border for visualization */
+    border: 2px solid black; /* Border for visualization */
+    padding: 2px 10px;
+    margin-right: 2vw; /* Adjust the value as needed */
+    text-align: justify;
+}
+
+.section2, .section4 {
+    margin: auto;
+    flex: 1; /* Each section takes up equal space */
+    border: 2px solid black; /* Border for visualization */
+    padding: 2px 10px;
     margin-right: 2vw; /* Adjust the value as needed */
     text-align: justify;
 }

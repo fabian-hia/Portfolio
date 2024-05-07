@@ -31,32 +31,36 @@ h1 {
 }
 
 footer {
+    border: 0px solid black;
     text-align: center;
+    margin: 0% 20%;
 }
 
 header {
     text-align: center;
-    border: 10px solid #00000000;
+    border: 0px solid black;
+    margin: 0% 20%;
 }
 
 /* Unvisited Links */
 a:link {
-    color: #0D1321;
+    text-decoration: none; /* Remove underline */
+    color: black;
+    font-weight: bold;
 }
 
 /* Visited Links */
 a:visited {
-    color: #0D1321;
+    text-decoration: none; /* Remove underline */
+    color: black;
+    font-weight: bold;
 }
-  
+
 /* Mouse over Links */
 a:hover {
-    color: #0D1321;
-}
-  
-/* Selected Links */
-a:active {
-    color: #0D1321;
+    text-decoration: none; /* Remove underline */
+    color: gray;
+    font-weight: bold;
 }
 
 /* 
