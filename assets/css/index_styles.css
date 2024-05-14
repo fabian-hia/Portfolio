@@ -1,24 +1,26 @@
 /* General Formatting */
 * {
-    background-color: white;
+    background-color: #ECECEC;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* h1 */
 h1 {
     font-size: 1.3REM;
-    border: 0px solid #8491A8;
-    padding: 10px 20px solid black;
+    border: 0px solid;
+    padding: 10px 20px solid;
     margin: 0% 20%;
     text-align: center;
 }
 
 h2 {
     font-size: 1REM;
+    background-color: #00000000;
     border: 0px solid #8491A8;
     padding: 10px 20px solid black;
     margin: 0% 20%;
     text-align: center;
+    display: table-cell;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -31,27 +33,68 @@ h2 {
     margin: 0% 20%;
 }
 
-.section1, .section3,.section5 {
+.section1 {
     height: 150px;
     flex: 1; /* Each section takes up equal space */
-    border: 2px solid black; /* Border for visualization */
+    border: 2px solid #F78888; /* Border for visualization */
+    background-color: #F78888;
     padding: 1px 10px;
     margin-right: 2vw; /* Adjust the value as needed */
     text-align: justify;
 }
 
-.section2, .section4 {
+.section2 {
     height: 150px;
-    margin: auto;
     flex: 1; /* Each section takes up equal space */
-    border: 2px solid black; /* Border for visualization */
-    padding: 2px 10px;
+    border: 2px solid #F3D250; /* Border for visualization */
+    background-color: #F3D250;
+    padding: 1px 10px;
+    margin-right: 2vw; /* Adjust the value as needed */
+    text-align: justify;
+}
+
+.section3 {
+    height: 150px;
+    flex: 1; /* Each section takes up equal space */
+    border: 2px solid #90CCF4; /* Border for visualization */
+    background-color: #90CCF4;
+    padding: 1px 10px;
+    margin-right: 2vw; /* Adjust the value as needed */
+    text-align: justify;
+}
+
+.section4 {
+    height: 150px;
+    flex: 1; /* Each section takes up equal space */
+    border: 2px solid #5da2d5; /* Border for visualization */
+    background-color: #5da2d5;
+    padding: 1px 10px;
+    margin-right: 2vw; /* Adjust the value as needed */
+    text-align: justify;
+}
+
+.section5 {
+    height: 150px;
+    flex: 1; /* Each section takes up equal space */
+    border: 2px solid #F78888; /* Border for visualization */
+    background-color: #F78888;
+    padding: 1px 10px;
+    margin-right: 2vw; /* Adjust the value as needed */
+    text-align: justify;
+}
+
+.section6 {
+    height: 150px;
+    flex: 1; /* Each section takes up equal space */
+    border: 2px solid #00000000; /* Border for visualization */
+    background-color: #00000000;
+    padding: 1px 10px;
     margin-right: 2vw; /* Adjust the value as needed */
     text-align: justify;
 }
 
 /* Ensure the last section doesn't have margin on the right */
-.section:last-child {
+.section6:last-child {
     margin-right: 0;
 }
 
